@@ -1,6 +1,15 @@
-function PinCard(){
+import { Pin } from "../Interface/Pin";
+
+interface PinCardProps { 
+    pin : Pin;
+}
+
+function PinCard(pinData: PinCardProps){
+    console.log(pinData.pin.img);
     return(
-        <div>pincard test</div>
+        <div>
+            <img src = {pinData.pin.img} alt={pinData.pin.description}></img>
+        </div>
     )
 }
 
