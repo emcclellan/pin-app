@@ -4,21 +4,21 @@
         "name": "WowHead 15th Anniversary rocket",
         "description": "Wowhead 15th Anniversary rocket",
         "category": "Wowhead",
-        "img": "/Pins/wowhead_rocket_15anniversary.PNG"
+        "img": "/Pins/wowhead_rocket_15anniversary.png"
     },
     {
         "id": 2,
         "name": "WowHead Alliance rocket",
         "description": "Wowhead Alliance rocket",
         "category": "Wowhead",
-        "img": "/Pins/wowhead_rocket_alliance.PNG"
+        "img": "/Pins/wowhead_rocket_alliance.png"
     },
     {
         "id": 3,
         "name": "WowHead Horde rocket",
         "description": "Wowhead Horde rocket",
         "category": "Wowhead",
-        "img": "/Pins/wowhead_rocket_horde.PNG"
+        "img": "/Pins/wowhead_rocket_horde.png"
     },
     {
         "id": 4,
