@@ -1,19 +1,18 @@
 import data from '../Data/PinRepo.json';
 import PinCard from '../PinCard/PinCard';
 import { Pins } from '../Interface/Pin'; 
+import './PinCardList.css';
 
 function PinCardList(){     
     let dataList : Pins = data;
 
     return(
-        <div>
-            <ul>
+        <div className="grid">
                 {
                     dataList.map((item) => {
-                        return <li key={item.id}><PinCard pin={item}/></li>
+                        return <div className="item" key={item.id}><PinCard pin={item}/></div>
                     })
                 }
-            </ul>
         </div>
     )
 }
