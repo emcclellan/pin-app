@@ -4,21 +4,21 @@
         "name": "WowHead 15th Anniversary rocket",
         "description": "Wowhead 15th Anniversary rocket",
         "category": "Wowhead",
-        "img": "/Pins/wowhead_rocket_15anniversary.PNG"
+        "img": "/Pins/wowhead_rocket_15anniversary.png"
     },
     {
         "id": 2,
         "name": "WowHead Alliance rocket",
         "description": "Wowhead Alliance rocket",
         "category": "Wowhead",
-        "img": "/Pins/wowhead_rocket_alliance.PNG"
+        "img": "/Pins/wowhead_rocket_alliance.png"
     },
     {
         "id": 3,
         "name": "WowHead Horde rocket",
         "description": "Wowhead Horde rocket",
         "category": "Wowhead",
-        "img": "/Pins/wowhead_rocket_horde.PNG"
+        "img": "/Pins/wowhead_rocket_horde.png"
     },
     {
         "id": 4,
@@ -26,5 +26,40 @@
         "description": "Wowhead Torghast rocket",
         "category": "Wowhead",
         "img": "/Pins/wowhead_rocket_torghast.png"
+    },
+    {
+        "id": 5,
+        "name": "Hearth Stone Medivh's Invitation",
+        "description": "Medivh's Invitation Hearth Stone card",
+        "category": "Blizzard",
+        "img": "/Pins/hearthStone1.png"
+    },
+    {
+        "id": 6,
+        "name": "Heath Stone Darkmoon Faire",
+        "description": "Darkmoon Faire Hearth Stone card",
+        "category": "Blizzard",
+        "img": "/Pins/hearthStone2.png"
+    },
+    {
+        "id": 7,
+        "name": "Hearth Stone Thrill of Victory",
+        "description": "Hearth Stone Thrill of Victory",
+        "category": "Blizzard",
+        "img": "/Pins/hearthStone3.png"
+    },
+    {
+        "id": 8,
+        "name": "Cupcake Hearth Stone Pin",
+        "description": "Cupcake Hearth Stone Pin",
+        "category": "Blizzard",
+        "img": "/Pins/hearthStone4.png"
+    },
+    {
+        "id": 9,
+        "name": "Classic Hearth Stone Pin",
+        "description": "Classic Hearth Stone Pin",
+        "category": "Blizzard",
+        "img": "/Pins/hearthStone5.png"
     }
 ]

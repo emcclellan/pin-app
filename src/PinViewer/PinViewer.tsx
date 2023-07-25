@@ -1,8 +1,11 @@
 import PinCardList from "../PinCardList/PinCardList";
+import "./PinViewer.css";
 
 function PinViewer(){
     return(
-        <PinCardList/>
+        <div className="center">
+            <PinCardList/>
+        </div>
     );
 }
 
