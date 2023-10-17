@@ -1,14 +1,22 @@
 import React, {useState} from "react";
+import { Pins } from '../Interface/Pin'; 
+import data from '../Data/PinRepo.json';
 
 function FilterBar(){
+    let dataList : Pins = data;
     const [search, setSearch] = useState('');
 
-    const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setSearch(event.target.value);
-    };
-
-    function handleSearchClick(){
-        console.log(search);
+    function handleSearch(){
+        const results = dataList.filter((pin) => {
+            return (
+                search && 
+                pin && 
+                pin.name && 
+                pin.name.toLowerCase().includes(search)
+            );
+        });
+        console.log('here?');
+        console.log(...results);
     }
 
     return(
@@ -16,8 +24,8 @@ function FilterBar(){
             <form>
                 <span>
                     <label>Pin Name: </label>
-                    <input placeholder="Pin Name..." type="text" value={search} onChange={handleInputChange} /> 
-                    <button onClick={handleSearchClick}>Search</button>
+                    <input placeholder="Pin Name..." type="text" value={search} onChange={(e) => setSearch(e.target.value)} /> 
+                    <button onClick={handleSearch}>Search</button>
                 </span>
             </form>
         </div>

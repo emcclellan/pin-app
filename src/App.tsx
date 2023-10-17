@@ -3,11 +3,13 @@ import FilterBar from './FilterBar/FilterBar';
 import Header from './Header/Header';
 import PinViewer from './PinViewer/PinViewer';
 
+
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
+      const [results, setResults] = useState(string[]);
       <Header/>
-      <FilterBar/>
+      <FilterBar />
       <br/>
       <PinViewer/>
     </div>
